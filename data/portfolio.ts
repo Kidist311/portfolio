@@ -48,6 +48,18 @@ export const portfolio = {
       image:
         "https://images.unsplash.com/photo-1737442981890-0a87ef3ce9f5?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&q=85&w=1400",
     },
+
+    {
+      title: "Elsewhere",
+      number: "03",
+      story:
+        "An editorial travel journal for people who would rather get a little lost.",
+      longStory:
+        "A slow, image-led publishing world with unexpected routes, field notes, and stories from people who know a place by heart.",
+      tags: ["Editorial", "Art direction", "Web"],
+      image:
+        "https://images.unsplash.com/photo-1737442981890-0a87ef3ce9f5?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&q=85&w=1400",
+    },
   ],
   timeline: [
     { year: "Now", role: "Independent designer", place: "Everywhere, mostly" },

@@ -10,11 +10,11 @@ export const metadata: Metadata = {
 }
 
 const contactLinks = [
-  { label: "GitHub", href: "https://github.com/", icon: FiGithub },
-  { label: "LinkedIn", href: "https://www.linkedin.com/", icon: FiLinkedin },
-  { label: "Twitter", href: "https://x.com/", icon: FiTwitter },
-  { label: "Telegram", href: "https://t.me/", icon: FiSend },
-  { label: "Email", href: "mailto:hello@example.com", icon: FiMail },
+  { label: "GitHub", href: "https://github.com/Kidist311/", icon: FiGithub },
+  { label: "LinkedIn", href: "https://www.linkedin.com/in/kidist-alemayehu-59a491329/", icon: FiLinkedin },
+  { label: "Twitter", href: "https://x.com/KidistAlem66030", icon: FiTwitter },
+  { label: "Telegram", href: "https://t.me/Jehova_Raan", icon: FiSend },
+  { label: "Email", href: "alemayehukidist09@gmail.com", icon: FiMail },
 ]
 
 export default function ContactPage() {
