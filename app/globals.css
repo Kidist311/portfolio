@@ -900,6 +900,16 @@ body:has(a:hover, button:hover) .cursor {
 }
 
 /* ---------- responsive ---------- */
+.experience-timeline-line {
+  display: block;
+}
+
+@media (max-width: 640px) {
+  .experience-timeline-line {
+    display: none !important;
+  }
+}
+
 @media (max-width: 760px) {
   body, button { cursor: auto; }
   .cursor { display: none; }

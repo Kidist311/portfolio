@@ -2,6 +2,7 @@ import type { Metadata } from "next"
 import Link from "next/link"
 import IntroCard from "@/components/about/IntroCard"
 import TechStack from "@/components/about/TechStack"
+import Experience from "@/components/about/Experience"
 
 export const metadata: Metadata = {
   title: "About · Kiki’s Workspace",
@@ -30,6 +31,7 @@ export default function AboutPage() {
 
         <IntroCard />
         <TechStack />
+        <Experience />
       </div>
     </main>
   )
