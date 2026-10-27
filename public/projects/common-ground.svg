@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="100%" height="100%">
+  <defs>
+    <linearGradient id="cgbg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#14110e" />
+      <stop offset="50%" stop-color="#211713" />
+      <stop offset="100%" stop-color="#0e0c0a" />
+    </linearGradient>
+    <radialGradient id="cgglow" cx="80%" cy="20%" r="55%">
+      <stop offset="0%" stop-color="#c67b5a" stop-opacity="0.3" />
+      <stop offset="100%" stop-color="#c67b5a" stop-opacity="0" />
+    </radialGradient>
+  </defs>
+
+  <rect width="800" height="500" fill="url(#cgbg)" />
+  <rect width="800" height="500" fill="url(#cgglow)" />
+
+  <!-- App Chrome -->
+  <rect x="40" y="30" width="720" height="440" rx="16" fill="#1b1512" fill-opacity="0.8" stroke="#c67b5a" stroke-opacity="0.25" stroke-width="1" />
+  <rect x="40" y="30" width="720" height="46" rx="16" fill="#140f0c" fill-opacity="0.9" />
+  <circle cx="68" cy="53" r="5" fill="#e06c75" opacity="0.8" />
+  <circle cx="86" cy="53" r="5" fill="#e5c07b" opacity="0.8" />
+  <circle cx="104" cy="53" r="5" fill="#98c379" opacity="0.8" />
+  <text x="400" y="58" font-family="'Fraunces', serif" font-size="13" fill="#c67b5a" letter-spacing="1.5" text-anchor="middle" font-weight="600">COMMON GROUND · NEIGHBORHOOD SHARING</text>
+
+  <!-- Top search/filter bar -->
+  <rect x="76" y="96" width="460" height="42" rx="10" fill="#291e19" stroke="#ffffff" stroke-opacity="0.08" />
+  <text x="100" y="122" font-family="'Nunito', sans-serif" font-size="13" fill="#f7f1e3" opacity="0.5">🔍 Borrow a cordless drill, lawn mower, tall ladder...</text>
+  
+  <rect x="552" y="96" width="182" height="42" rx="10" fill="#c67b5a" />
+  <text x="643" y="122" font-family="'Nunito', sans-serif" font-size="12" fill="#0d0c0a" font-weight="700" text-anchor="middle">+ List an item</text>
+
+  <!-- Card 1: Bosch Drill -->
+  <rect x="76" y="160" width="206" height="270" rx="12" fill="#251a14" fill-opacity="0.85" stroke="#c67b5a" stroke-opacity="0.2" />
+  <rect x="92" y="176" width="174" height="114" rx="8" fill="#19110d" />
+  <!-- Drill sketch icon -->
+  <path d="M 140 216 L 210 216 L 222 230 L 190 230 L 190 262 L 170 262 L 170 230 L 140 230 Z" fill="#c67b5a" opacity="0.9" />
+  <rect x="130" y="221" width="12" height="4" fill="#e9d6a8" />
+  <text x="96" y="316" font-family="'Fraunces', serif" font-size="15" fill="#f7f1e3" font-weight="600">Hammer Drill 18V</text>
+  <text x="96" y="336" font-family="'Nunito', sans-serif" font-size="11" fill="#c67b5a" font-weight="600">✦ 180m away · Maya S.</text>
+  <rect x="96" y="356" width="76" height="22" rx="11" fill="#98c379" fill-opacity="0.2" />
+  <text x="134" y="371" font-family="'Nunito', sans-serif" font-size="10" fill="#98c379" font-weight="700" text-anchor="middle">AVAILABLE</text>
+  <rect x="96" y="390" width="166" height="28" rx="6" fill="#c67b5a" fill-opacity="0.15" stroke="#c67b5a" stroke-opacity="0.4" />
+  <text x="179" y="408" font-family="'Nunito', sans-serif" font-size="11" fill="#e9d6a8" font-weight="700" text-anchor="middle">Request borrow</text>
+
+  <!-- Card 2: Apple Picker Pole -->
+  <rect x="302" y="160" width="206" height="270" rx="12" fill="#251a14" fill-opacity="0.85" stroke="#ffffff" stroke-opacity="0.08" />
+  <rect x="318" y="176" width="174" height="114" rx="8" fill="#19110d" />
+  <!-- Ladder/Pole icon -->
+  <line x1="390" y1="190" x2="390" y2="270" stroke="#c67b5a" stroke-width="3" />
+  <line x1="420" y1="190" x2="420" y2="270" stroke="#c67b5a" stroke-width="3" />
+  <line x1="390" y1="205" x2="420" y2="205" stroke="#e9d6a8" stroke-width="2" />
+  <line x1="390" y1="225" x2="420" y2="225" stroke="#e9d6a8" stroke-width="2" />
+  <line x1="390" y1="245" x2="420" y2="245" stroke="#e9d6a8" stroke-width="2" />
+  <text x="322" y="316" font-family="'Fraunces', serif" font-size="15" fill="#f7f1e3" font-weight="600">Extension Ladder</text>
+  <text x="322" y="336" font-family="'Nunito', sans-serif" font-size="11" fill="#c67b5a" font-weight="600">✦ 340m away · Liam O.</text>
+  <rect x="322" y="356" width="76" height="22" rx="11" fill="#98c379" fill-opacity="0.2" />
+  <text x="360" y="371" font-family="'Nunito', sans-serif" font-size="10" fill="#98c379" font-weight="700" text-anchor="middle">AVAILABLE</text>
+  <rect x="322" y="390" width="166" height="28" rx="6" fill="#c67b5a" fill-opacity="0.15" stroke="#c67b5a" stroke-opacity="0.4" />
+  <text x="405" y="408" font-family="'Nunito', sans-serif" font-size="11" fill="#e9d6a8" font-weight="700" text-anchor="middle">Request borrow</text>
+
+  <!-- Card 3: Neighborhood Map view -->
+  <rect x="528" y="160" width="206" height="270" rx="12" fill="#251a14" fill-opacity="0.85" stroke="#ffffff" stroke-opacity="0.08" />
+  <rect x="544" y="176" width="174" height="150" rx="8" fill="#18110c" />
+  <!-- Map streets -->
+  <path d="M 544 220 L 718 220 M 630 176 L 630 326 M 570 176 L 670 326" stroke="#2c1f19" stroke-width="8" />
+  <circle cx="630" cy="220" r="10" fill="#c67b5a" fill-opacity="0.3" />
+  <circle cx="630" cy="220" r="5" fill="#c67b5a" />
+  <circle cx="660" cy="250" r="4" fill="#e9d6a8" />
+  <circle cx="585" cy="205" r="4" fill="#e9d6a8" />
+  <text x="544" y="352" font-family="'Fraunces', serif" font-size="14" fill="#f7f1e3">Neighborhood Map</text>
+  <text x="544" y="372" font-family="'Nunito', sans-serif" font-size="11" fill="#c67b5a">28 items shared this week</text>
+  <text x="544" y="406" font-family="'Nunito', sans-serif" font-size="12" fill="#f7f1e3" opacity="0.75">★ 4.9 Trust Rating</text>
+</svg>

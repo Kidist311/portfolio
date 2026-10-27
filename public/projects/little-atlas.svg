@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="100%" height="100%">
+  <defs>
+    <linearGradient id="labg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#160f14" />
+      <stop offset="50%" stop-color="#1f121a" />
+      <stop offset="100%" stop-color="#100b0e" />
+    </linearGradient>
+    <radialGradient id="laglow" cx="60%" cy="35%" r="60%">
+      <stop offset="0%" stop-color="#c98fa2" stop-opacity="0.3" />
+      <stop offset="100%" stop-color="#c98fa2" stop-opacity="0" />
+    </radialGradient>
+  </defs>
+
+  <rect width="800" height="500" fill="url(#labg)" />
+  <rect width="800" height="500" fill="url(#laglow)" />
+
+  <!-- App Chrome -->
+  <rect x="40" y="30" width="720" height="440" rx="16" fill="#1b1218" fill-opacity="0.8" stroke="#c98fa2" stroke-opacity="0.25" stroke-width="1" />
+  <rect x="40" y="30" width="720" height="46" rx="16" fill="#140c11" fill-opacity="0.9" />
+  <circle cx="68" cy="53" r="5" fill="#e06c75" opacity="0.8" />
+  <circle cx="86" cy="53" r="5" fill="#e5c07b" opacity="0.8" />
+  <circle cx="104" cy="53" r="5" fill="#98c379" opacity="0.8" />
+  <text x="400" y="58" font-family="'Fraunces', serif" font-size="13" fill="#c98fa2" letter-spacing="1.5" text-anchor="middle" font-weight="600">LITTLE ATLAS · POCKET DISCOVERIES</text>
+
+  <!-- Topographic contours / Map background -->
+  <g transform="translate(60, 90)" opacity="0.25">
+    <ellipse cx="280" cy="180" rx="220" ry="140" fill="none" stroke="#c98fa2" stroke-width="1.2" />
+    <ellipse cx="280" cy="180" rx="170" ry="105" fill="none" stroke="#c98fa2" stroke-width="1.2" stroke-dasharray="6,4" />
+    <ellipse cx="280" cy="180" rx="120" ry="70" fill="none" stroke="#c98fa2" stroke-width="1.2" />
+    <ellipse cx="280" cy="180" rx="60" ry="35" fill="none" stroke="#c98fa2" stroke-width="1.5" />
+  </g>
+
+  <!-- Route trail with dots -->
+  <path d="M 120 380 Q 220 320, 290 260 T 440 210 T 580 160" fill="none" stroke="#c98fa2" stroke-width="2.5" stroke-dasharray="7,5" />
+  
+  <!-- Map Pins -->
+  <g transform="translate(120, 380)">
+    <circle cx="0" cy="0" r="14" fill="#c98fa2" fill-opacity="0.25" />
+    <circle cx="0" cy="0" r="6" fill="#e9d6a8" />
+    <rect x="-60" y="-36" width="120" height="24" rx="12" fill="#1b1218" stroke="#c98fa2" stroke-width="1" />
+    <text x="0" y="-20" font-family="'Nunito', sans-serif" font-size="10" fill="#f7f1e3" text-anchor="middle" font-weight="700">Canal Secret Garden</text>
+  </g>
+
+  <g transform="translate(290, 260)">
+    <circle cx="0" cy="0" r="14" fill="#c98fa2" fill-opacity="0.25" />
+    <circle cx="0" cy="0" r="6" fill="#c98fa2" />
+    <rect x="-50" y="-36" width="100" height="24" rx="12" fill="#1b1218" stroke="#c98fa2" stroke-width="1" />
+    <text x="0" y="-20" font-family="'Nunito', sans-serif" font-size="10" fill="#f7f1e3" text-anchor="middle" font-weight="700">Artisan Bakery</text>
+  </g>
+
+  <g transform="translate(580, 160)">
+    <circle cx="0" cy="0" r="18" fill="#e9d6a8" fill-opacity="0.3" />
+    <circle cx="0" cy="0" r="7" fill="#e9d6a8" />
+    <rect x="-55" y="-38" width="110" height="26" rx="13" fill="#1b1218" stroke="#e9d6a8" stroke-width="1" />
+    <text x="0" y="-21" font-family="'Nunito', sans-serif" font-size="11" fill="#e9d6a8" text-anchor="middle" font-weight="700">Overlook Bench ★</text>
+  </g>
+
+  <!-- Right Floating Detail Card -->
+  <rect x="490" y="240" width="240" height="190" rx="12" fill="#241620" fill-opacity="0.9" stroke="#c98fa2" stroke-opacity="0.3" />
+  <text x="512" y="272" font-family="'Nunito', sans-serif" font-size="10" fill="#c98fa2" font-weight="700" letter-spacing="1.5">DISCOVERY OF THE DAY</text>
+  <text x="512" y="302" font-family="'Fraunces', serif" font-size="18" fill="#f7f1e3" font-weight="600">The Clocktower Steps</text>
+  <text x="512" y="326" font-family="'Nunito', sans-serif" font-size="12" fill="#f7f1e3" opacity="0.65">Quiet stone steps built in 1894.</text>
+  <text x="512" y="344" font-family="'Nunito', sans-serif" font-size="12" fill="#f7f1e3" opacity="0.65">Sunlight breaks through at 5:15 PM.</text>
+  
+  <rect x="512" y="374" width="196" height="34" rx="8" fill="#c98fa2" fill-opacity="0.2" stroke="#c98fa2" stroke-opacity="0.5" />
+  <text x="610" y="396" font-family="'Nunito', sans-serif" font-size="11" fill="#e9d6a8" font-weight="700" text-anchor="middle">Save to my pocket map</text>
+
+  <!-- Compass rose in corner -->
+  <g transform="translate(100, 140)">
+    <circle cx="0" cy="0" r="22" fill="none" stroke="#c98fa2" stroke-width="1" stroke-dasharray="2,3" opacity="0.4" />
+    <polygon points="0,-16 4,-4 16,0 4,4 0,16 -4,4 -16,0 -4,-4" fill="#c98fa2" opacity="0.75" />
+    <text x="0" y="-20" font-family="'Nunito', sans-serif" font-size="9" fill="#c98fa2" text-anchor="middle" font-weight="700">N</text>
+  </g>
+</svg>

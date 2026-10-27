@@ -1,0 +1,10 @@
+{
+  "description": "Explore a personal creative portfolio featuring project stories, career highlights, and easy ways to connect, all in an engaging, responsive experience.",
+  "robots": {
+    "index": false
+  },
+  "accessibility": {
+    "addBypassLinks": false,
+    "ignoreReducedMotion": false
+  }
+}
