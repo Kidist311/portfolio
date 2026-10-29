@@ -14,7 +14,7 @@ const contactLinks = [
   { label: "LinkedIn", href: "https://www.linkedin.com/in/kidist-alemayehu-59a491329/", icon: FiLinkedin },
   { label: "Twitter", href: "https://x.com/KidistAlem66030", icon: FiTwitter },
   { label: "Telegram", href: "https://t.me/Jehova_Raan", icon: FiSend },
-  { label: "Email", href: "alemayehukidist09@gmail.com", icon: FiMail },
+  { label: "Email", href:"mailto:alemayehukidiist09@gmail.com", icon: FiMail },
 ]
 
 export default function ContactPage() {
