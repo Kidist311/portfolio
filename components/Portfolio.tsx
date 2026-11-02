@@ -7,7 +7,7 @@ import { motion, AnimatePresence } from "framer-motion"
 const landingNav = [
   { label: "About me", href: "/about" },
   { label: "Projects", href: "/projects" },
-  { label: "Resume", href: "https://drive.google.com/file/d/1o50hMD_RcTWii_79OhJBcHlL8mrCKLoh/view?usp=sharing", target: "_blank" },
+  { label: "Resume", href: "https://drive.google.com/file/d/1cq4wr_CKNqwL_qBs2imuAGKn2OxtZOVf/view?usp=sharing", target: "_blank" },
   { label: "Contact me", href: "/contact" },
 ]
 
