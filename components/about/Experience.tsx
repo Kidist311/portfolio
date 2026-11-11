@@ -35,7 +35,7 @@ const experiences = [
   {
     company: "Federal Housing Corporation (FHC)",
     role: "Full-Stack Engineer",
-    period: "June 2026 — Sep 2026",
+    period: "June 2026 — present",
     location: "Addis Ababa, Ethiopia",
     description: [
       "Architected and built the full-stack infrastructure for a nationwide Document Workflow Tracking & Reporting System (DWTRS), delivering a high-performance React/TypeScript frontend and an enterprise Node.js micro-architecture handling complex multi-tiered operational hierarchies.",
