@@ -36,7 +36,7 @@ const experiences = [
     company: "Federal Housing Corporation (FHC)",
     role: "Full-Stack Engineer",
     period: "June 2026 — Sep 2026",
-    location: "Abuja, Nigeria",
+    location: "Addis Ababa, Ethiopia",
     description: [
       "Architected and built the full-stack infrastructure for a nationwide Document Workflow Tracking & Reporting System (DWTRS), delivering a high-performance React/TypeScript frontend and an enterprise Node.js micro-architecture handling complex multi-tiered operational hierarchies.",
       "Engineered a zero-trust authentication engine and granular Role-Based Access Control (RBAC) framework with automated, tamper-proof audit logging to safeguard sensitive public-sector documents and operational workflows.",
